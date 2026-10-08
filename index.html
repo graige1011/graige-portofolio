@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Graige | Who Am I</title>
+
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -16,41 +18,44 @@
             <a href="index.html">Who Am I</a>
             <a href="projects.html">Projects</a>
             <a href="blog.html">Blog</a>
+            <a href="contact.html">Contact</a>
         </nav>
     </header>
 
     <main>
 
-       <section class="hero">
-    <div class="hero-text">
-        <h2>Who Am I?</h2>
+        <section class="hero">
+            <div class="hero-text">
+                <h2>Who Am I?</h2>
 
-        <p>
-            Hi, I'm Graige. I'm an ICT student who enjoys working with
-            computers, learning about programming and creating applications.
-        </p>
+                <p>
+                    Hi, I'm Graige. I'm an ICT student who enjoys working with
+                    computers, learning about programming and creating applications.
+                </p>
 
-        <p>
-            In my free time I enjoy baseball and learning more about
-            computers and technology.
-        </p>
+                <p>
+                    In my free time I enjoy baseball and learning more about
+                    computers and technology.
+                </p>
 
-        <p>
-            I am especially interested in tourism applications. I would like
-            to create apps that help tourists discover attractions,
-            restaurants and useful information when visiting a new place.
-        </p>
-    </div>
+                <p>
+                    I am especially interested in tourism applications. I would like
+                    to create apps that help tourists discover attractions,
+                    restaurants and useful information when visiting a new place.
+                </p>
+            </div>
 
-    <div class="hero-image">
-        <img src="images/profile.jpg" alt="Portrait of Graige">
-    </div>
-</section>
+            <div class="hero-image">
+                <img src="images/profile.jpg" alt="Portrait of Graige">
+            </div>
+        </section>
+
         <section>
             <h2>My Interests</h2>
 
             <article>
                 <h3>Computers</h3>
+
                 <p>
                     I enjoy learning how computers and software work.
                 </p>
@@ -58,6 +63,7 @@
 
             <article>
                 <h3>Baseball</h3>
+
                 <p>
                     Baseball is one of my favourite sports because I like
                     the teamwork, strategy and statistics.
@@ -66,6 +72,7 @@
 
             <article>
                 <h3>Tourism Apps</h3>
+
                 <p>
                     I want to learn how to make useful applications for
                     travellers and tourists.
@@ -74,11 +81,28 @@
 
         </section>
 
+        <section class="weather-section">
+            <h2>Travel Weather</h2>
+
+            <p>
+                Here you can see current weather information before going outside in the Netherlands.
+            </p>
+
+            <p id="weather-status">
+                Loading weather...
+            </p>
+
+            <div id="weather-result"></div>
+        </section>
+
     </main>
 
     <footer>
         <p>&copy; 2026 Graige</p>
     </footer>
 
+    <script src="js/weather.js"></script>
+
 </body>
+
 </html>

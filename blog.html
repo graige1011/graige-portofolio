@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Graige | Blog</title>
+
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -16,6 +18,7 @@
             <a href="index.html">Who Am I</a>
             <a href="projects.html">Projects</a>
             <a href="blog.html">Blog</a>
+            <a href="contact.html">Contact</a>
         </nav>
     </header>
 
@@ -24,32 +27,53 @@
         <section>
             <h2>My Blog</h2>
 
-            <article>
+            <article class="blog-post">
                 <h3>Why I Like Programming</h3>
+
                 <p>
                     I like programming because it allows me to turn ideas
-                    into something that actually works. Solving problems
-                    can sometimes be difficult, but finding the solution
-                    is rewarding.
+                    into something that actually works.
                 </p>
+
+                <p class="blog-extra hidden">
+                    Solving problems can sometimes be difficult, but finding
+                    the solution is rewarding. I also like learning new ways
+                    to improve my code.
+                </p>
+
+                <button class="read-more">Read more</button>
             </article>
 
-            <article>
+            <article class="blog-post">
                 <h3>Why Baseball Interests Me</h3>
+
                 <p>
                     I enjoy baseball because it combines teamwork,
-                    strategy and statistics. It also gives me ideas for
-                    programming projects.
+                    strategy and statistics.
                 </p>
+
+                <p class="blog-extra hidden">
+                    It also gives me ideas for programming projects,
+                    especially apps that use statistics or player information.
+                </p>
+
+                <button class="read-more">Read more</button>
             </article>
 
-            <article>
+            <article class="blog-post">
                 <h3>Technology and Tourism</h3>
+
                 <p>
-                    Technology can make travelling easier. Tourism apps
-                    can help people find attractions, restaurants,
-                    directions and other useful information.
+                    Technology can make travelling easier.
                 </p>
+
+                <p class="blog-extra hidden">
+                    Tourism apps can help people find attractions,
+                    restaurants, directions and other useful information.
+                    This is one of the areas I would like to work on in the future.
+                </p>
+
+                <button class="read-more">Read more</button>
             </article>
 
         </section>
@@ -60,5 +84,7 @@
         <p>&copy; 2026 Graige</p>
     </footer>
 
+    <script src="js/blog.js"></script>
 </body>
+
 </html>

@@ -16,6 +16,7 @@
             <a href="index.html">Who Am I</a>
             <a href="projects.html">Projects</a>
             <a href="blog.html">Blog</a>
+            <a href="contact.html">Contact</a>
         </nav>
     </header>
 
@@ -24,33 +25,15 @@
         <section>
             <h2>My Projects</h2>
 
-            <div class="projects">
-
-                <article class="project-card">
-                    <h3>TourGuide App</h3>
-                    <p>
-                        A tourism app concept that helps visitors find
-                        attractions and activities in a city.
-                    </p>
-                </article>
-
-                <article class="project-card">
-                    <h3>Baseball Stats App</h3>
-                    <p>
-                        A simple application for viewing baseball players
-                        and their statistics.
-                    </p>
-                </article>
-
-                <article class="project-card">
-                    <h3>PC Builder Helper</h3>
-                    <p>
-                        A website that helps beginners understand which
-                        computer components they need.
-                    </p>
-                </article>
-
+            <div class="filters">
+                <button data-category="All">All</button>
+                <button data-category="Tourism">Tourism</button>
+                <button data-category="Baseball">Baseball</button>
+                <button data-category="Computers">Computers</button>
             </div>
+
+            <div id="projects" class="projects"></div>
+
         </section>
 
     </main>
@@ -59,5 +42,6 @@
         <p>&copy; 2026 Graige</p>
     </footer>
 
+    <script src="js/project.js"></script>
 </body>
 </html>
