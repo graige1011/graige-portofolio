@@ -1,0 +1,6 @@
+@GraigePortfolioApi_HostAddress = http://localhost:5249
+
+GET {{GraigePortfolioApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
