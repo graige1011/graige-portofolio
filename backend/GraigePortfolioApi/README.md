@@ -168,7 +168,7 @@ PUT    /api/Blogposts/{id}
 DELETE /api/Blogposts/{id}
 ```
 
-## Persistentie
+## Persistentie en geheugen
 
 Projecten en blogposts worden opgeslagen in SQL Server.
 
